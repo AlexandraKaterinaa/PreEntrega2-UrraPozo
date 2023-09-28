@@ -20,21 +20,23 @@ header{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #logojc_i{
-   width: 100px;
-   height: 100px;
+   width: auto;
+   height: 80px;
 }
+/*
 .gorros{
    display: flex;
    justify-content: center;
 
 }
+
 .contenedor-gorros{
    display: flex;
    flex-direction: column;
    gap: 10px;
    margin: 0 0 30px 0;
 }
-
+*/
 h2{
    color: aliceblue;
 }
@@ -48,12 +50,14 @@ h2{
    justify-content: space-around;
    margin: 40px 0 0 0;
 }
+/*
 .footer{
    background-color: brown;
    width: 100%;
    margin: 30px 0 0 0;
    padding: 50px;
 }
+*/
 #texto_footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
@@ -188,3 +192,8 @@ h2{
    margin: 50px 0 0 50px;
 }
 
+@media only screen and (min-width: 1024px) {
+   #logojc_i{
+      height: 100px;
+   }
+}
