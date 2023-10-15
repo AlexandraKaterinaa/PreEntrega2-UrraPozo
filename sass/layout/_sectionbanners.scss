@@ -1,0 +1,23 @@
+section{
+    #primera{
+        transition: 0.5s;
+        object-fit: cover;
+     }
+     #primera:hover{
+        transform: scale(1.1);
+     }
+     #segunda{
+        transition: 0.5s;
+        object-fit: cover;
+     }
+     #segunda:hover{
+        transform: scale(1.1);
+     }
+     #tercera{
+        transition: 0.5s;
+        object-fit: cover;
+     }
+     #tercera:hover{
+        transform: scale(1.1);
+     }   
+}

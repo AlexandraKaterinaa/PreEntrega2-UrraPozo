@@ -1,0 +1,17 @@
+header{
+   section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+     
+    .logo{
+        display: flex;
+        align-items:center;
+        gap: 20px;    
+    } 
+    #logojc_i{
+        width: auto;
+        height: 80px;  
+    }
+   }
+   }
